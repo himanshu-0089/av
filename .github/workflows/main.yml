@@ -1,0 +1,12 @@
+name: Himanshu
+
+on: 
+  push: 
+    branches: [ main]
+
+jobs:
+  demo:
+  run-on: ubuntu-latest
+  steps:
+    -name: harsh
+    run: echo "hello himanshu"
